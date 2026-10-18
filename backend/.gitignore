@@ -1,0 +1,97 @@
+# Environment variables and secrets
+
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache files
+
+**pycache**/
+*.py[cod]
+
+# Testing and coverage
+
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# Linters and type checkers
+
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Logs and temporary files
+
+*.log
+logs/
+log/
+tmp/
+temp/
+.cache/
+*.pid
+
+# IDE and editor files
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating system files
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Build and distribution
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local databases and backups
+
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.bak
+
+# Jupyter notebooks
+
+.ipynb_checkpoints/
+
+# Uploaded files and receipts (if stored locally)
+
+uploads/
+
+# Generated AI/ML artifacts (uncomment if applicable)
+
+# models/
+
+# checkpoints/
+
+# *.pt
+
+# *.pth
+
+# *.onnx
+
+# Security keys and certificates
+
+*.pem
+*.key
+*.p12
+*.pfx
